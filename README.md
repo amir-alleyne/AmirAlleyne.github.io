@@ -1,3 +1,3 @@
 # AmirAlleyne.github.io
 
-Brief portfolio for amir alleyne
+Brief portfolio for Amir Alleyne
