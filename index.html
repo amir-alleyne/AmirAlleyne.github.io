@@ -9,7 +9,31 @@
     <title>Amir Alleyne | Software Engineer</title>
     <meta name="keywords" content="AmirAlleyne, Amir, Javascript, Python, HTML, CSS, React SQL, C">
     <meta name="description" content="Amir Alleyne | Developer">
-
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      
+      .row {
+        display: -ms-flexbox; /* sIE 10 */
+        display: flex;
+        -ms-flex-wrap: wrap; /* IE 10 */
+        flex-wrap: wrap;
+        padding: 0 4px;
+      }
+      
+      /* Create two equal columns that sits next to each other */
+      .column {
+        -ms-flex: 50%; /* IE 10 */
+        flex: 50%;
+        padding: 0 4px;
+      }
+      
+      .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+      }
+      </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/index.4a508c1d.css">
     <script defer="" src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
@@ -47,13 +71,13 @@
             <div class="about-wrapper__info load-hidden">
               <p class="about-wrapper__info-text">
                 I am an inquisitive and hard working software engineer who's main goal is to contribute positively to my community through creative and tech-heavy software products. 
-                I enjoy Full Stack Development, Quality Assurance and Security. 
+                I enjoy Full Stack Development, Artificial Intelligence and Security. 
               </p>
               <p class="about-wrapper__info-text">
                 I am an avid soccer fan who has a keen interest in music, photography and cooking. 
               </p>
               <span class="d-flex mt-3">
-                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="mailto:amiralleyne21@gmail.com?subject=Resume Request">
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="mailto:amiralleyne21@gmail.com?subject=Resume Request&body= Hey Amir! I am interested in viewing your resume.%0A%0AThank you.%0A%0A%0A Best,%0A%0A %3CYour Name%3E">
                   View Resume
                 </a>
               </span>
@@ -70,6 +94,37 @@
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Projects</h2>
            
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Alma Amor</h3>
+                <div>
+                  <p class="mb-4">
+                   Publicly unreleased, Alma Amor is an iOS mobile application that leverages SwiftUI and Google Firebase to create a social media platform for college students to meet and connect with each other.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+               
+                  <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
+                    <div class="row"> 
+                      <div class="column">
+                        <img src="signUp.png" style="width:100%; height:50%">
+                        <img src="verified.png" style="width:100%; height:50%">
+                      </div>
+                      <div class="column">
+                        <img src="verifyAccount.png" style="width:100%; height:50%">
+                        <img src="home.png" style="width:100%; height:50%">
+                      </div> 
+                      </div>
+                  </div>
+               
+              </div>
+            </div>
+          </div>
+
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
@@ -226,3 +281,4 @@
     <script defer="" src="/index.975ef6c8.js"></script>
   </body>
 </html>
+
